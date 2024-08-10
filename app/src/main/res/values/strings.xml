@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyRunBuddyApplication</string>
+    <string name="myrunbuddy">MyRunBuddy</string>
+    <string name="view_my_runs">View My Runs</string>
+    <string name="log_my_run">Log My Run</string>
+    <string name="my_run_buddy">My Run Buddy</string>
+    <string name="menuoptions">MenuOptions</string>
+    <string name="send_message">Send Message</string>
+    <string name="ask_my_run_buddy">Ask My Run Buddy:</string>
+    <string name="user_message">User message</string>
+    <string name="bot_message">Bot message</string>
+    <string name="user_messages">User messages</string>
+    <string name="ask_runbuddy">Ask RunBuddy</string>
+    <string name="type_your_message_here">Type your message here:</string>
+    <string name="welcome_to_run_buddy">Welcome to Run Buddy</string>
+    <string name="welcome_to_your_run_buddy">Welcome to Your Run Buddy</string>
+    <string name="greeting_message">greeting_message</string>
+    <string name="go_to_menu">Go To Menu</string>
+    <string name="go_back_to_main_menu">Go Back to Main Menu</string>
+    <string name="input_question">input question</string>
+    <string name="result_area">Result Area</string>
+</resources>

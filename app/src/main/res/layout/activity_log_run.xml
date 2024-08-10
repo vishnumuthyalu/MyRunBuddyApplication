@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogRun"
+    android:background="@drawable/menu_bg">
+
+    <TextView
+        android:id="@+id/logruntext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Please enter the details of the Run Below:"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/RunName"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/logruntext"
+        android:hint="Run Name:"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/RunDate"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Run Date :"
+        android:textSize="24sp"
+        android:layout_below="@id/RunName"
+        android:inputType="date"
+        android:textStyle="italic"/>
+
+
+    <EditText
+        android:id="@+id/RunTime"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Duration of Run:"
+        android:textSize="24sp"
+        android:layout_below="@id/RunDate"
+        android:inputType="time"
+        android:textStyle="italic"/>
+
+
+    <EditText
+        android:id="@+id/RunDistance"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Total Distance:"
+        android:textSize="24sp"
+        android:layout_below="@id/RunTime"
+        android:inputType="numberDecimal"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/RunBPM"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Average BPM:"
+        android:textSize="24sp"
+        android:layout_below="@id/RunDistance"
+        android:inputType="number"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/RunPace"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Average Pace:"
+        android:textSize="24sp"
+        android:layout_below="@id/RunBPM"
+        android:inputType="time"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert My Run"
+        android:textSize="24sp"
+        android:layout_below="@id/RunPace"/>
+
+    <Button
+        android:id="@+id/DeleteRunButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete My Run"
+        android:textSize="24sp"
+        android:layout_below="@id/insertButton"/>
+
+    <Button
+        android:id="@+id/UpdateRunsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update My Runs"
+        android:textSize="24sp"
+        android:layout_below="@id/DeleteRunButton"/>
+
+    <Button
+        android:id="@+id/ViewRunsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View My Runs"
+        android:textSize="24sp"
+        android:layout_below="@id/UpdateRunsButton"/>
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Menu"
+        android:textSize="24sp"
+        android:layout_below="@id/ViewRunsButton"/>
+
+</RelativeLayout>
+
